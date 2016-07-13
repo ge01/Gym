@@ -122,7 +122,36 @@ aside {
   height: auto;
   padding: 3%;
 }
+ul.gym li {
+  padding-left: 3%;
+}
 /********************************Social Media**********************************/
+footer {
+  background-color: #333333;
+  width: 100%;
+  overflow: hidden;
+  opacity: 0.9;
+}
+footer p, footer h3 {
+  color: #fff;
+}
+footer p a {
+  color: #fff;
+  text-decoration: none;
+}
+ul.social li {
+  display: inline;
+}
+ul.social li img {
+  height: 50px;
+}
+footer.second {
+  bordert-top: 1px solid #4d4e50;
+  background-color: #333333;
+  max-height: 50px;
+  text-align: center;
+  opacity: 0.95;
+}
 /**********************************Blueberry***********************************/
 .blueberry { margin: 0 auto; }
 .blueberry .slides {
