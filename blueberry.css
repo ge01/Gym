@@ -98,8 +98,31 @@ nav ul li {
   max-width: 960px;
   margin-top: 110px;
 }
-
-
+/**********************************888888888***********************************/
+section {
+  width: 29%;
+  float: left;
+  margin: 2% 2%;
+  text-align: center;
+}
+.clear {
+  clear: both;
+}
+article {
+  float: left;
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+  padding: 4%;
+}
+aside {
+  float: right;
+  margin: 0 auto;
+  width: 35%;
+  height: auto;
+  padding: 3%;
+}
+/********************************Social Media**********************************/
 /**********************************Blueberry***********************************/
 .blueberry { margin: 0 auto; }
 .blueberry .slides {
