@@ -2,10 +2,19 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="mystyle.css" />
+    <link rel="stylesheet" href="blueberry.css" type="text/css" />
     <title>The Gym - Personal Training</title>
     <!-- Bootstrap 3 is mobile-first -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <!-- Image Slider -->
+    <script src="jquery.blueberry.js"></script>
+    <script>
+    $(window).load(function(){
+      $('.blueberry').blueberry();
+    });
+    </script>
 
   </head>
   <body>
@@ -93,7 +102,7 @@
         Our free weights section has an extensive collection of dumbells and O.ympic plates for body building.
       </p>
     </section>
-    <!---------------------------------Footer---------------------------------->
+    <!---------------------------------Footer I-------------------------------->
     <footer>
       <section>
         <h3><b>The Gym</b></h3>
@@ -117,11 +126,10 @@
         <img src="http://www.w3newbie.com/wp-content/uploads/weight-lifter.png" />
       </section>
     </footer>
+    <!---------------------------------Footer II------------------------------->
     <footer class="second">
       <p>Copyright - The Gym, 2014</p>
     </footer>
-
-
 
 
   </body>
